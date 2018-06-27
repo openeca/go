@@ -7,9 +7,9 @@ package mutation
 // 	Inversion(arr []int, startGeneIndex int, endGeneIndex int)
 // }
 
-//Given an input array @arr, Translocation selects an gene at @geneIndex and moves it to a new index i.e @newgeneIndex
-// It shifts everything between down or up depending on the selection order.
-//  <b>RETURNS COPY</b>
+//Translocation selects a gene at @geneIndex and moves it to a new index i.e @newgeneIndex.
+// Transolcation shifts everything between down or up depending on the selection order.
+// RETURNS A COPY
 func Translocation(arr []int, geneIndex int, newGeneIndex int) []int {
 	var gene int = arr[geneIndex]
 	var finArr []int = make([]int, len(arr))
@@ -27,7 +27,8 @@ func Translocation(arr []int, geneIndex int, newGeneIndex int) []int {
 	return finArr;
 }
 
-
+//Transposition takes two elements at positions gene1Index and gene2Index and swaps them.
+//<RETURNS A COPY>
 func Transposition(arr []int, gene1Index int, gene2Index int) []int {
 	gene1 := arr[gene1Index];
 	gene2 := arr[gene2Index];
@@ -45,6 +46,8 @@ func Transposition(arr []int, gene1Index int, gene2Index int) []int {
 	return finArr;
 }
 
+//NPointExchange is a specialized variation of an Inversion, where you define an nPoint which is an integer whose value must be less than the len(arr) and whose value added to the startGeneIndex must be less than len(arr). The NPoint is simply the number of elements to invert after the startGenendex. Given arr := [1,2,3,4,5], startGeneIndex=1 and NPoint=3, the result would be [1,3,2,4,5]
+//<RETURNS A COPY>
 func NPointExchange(arr []int, startGeneIndex int, nPoint int) []int {
 	if(startGeneIndex >= len(arr) ) {
 		panic("startGeneIndex (param1)  cannot be greater than or equal to the array (param 0) length")
@@ -79,6 +82,8 @@ func NPointExchange(arr []int, startGeneIndex int, nPoint int) []int {
 	return finArr;
 }
 
+//An inversion inverts a section of an array starting from the startGeneIndex and terminating at endGeneIndex. (Not including the endGeneIndex). Given arr := [1,2,3,4,5], startGeneIndex=1 and endGeneIndex=3, the result would be [1,3,2,4,5]
+//<RETURNS A COPY>
 func Inversion(arr []int, startGeneIndex int, endGeneIndex int) []int {
 	invRange := endGeneIndex - startGeneIndex;
 	invGenes := make([]int, invRange, invRange)

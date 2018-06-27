@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96876a0d-37a3-489f-8d9f-5bbc937975a1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/code-comments.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go/geneticalgorithms/mutation/mutation_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go/main.go" afterDir="false" />
-    </list>
+    <list default="true" id="96876a0d-37a3-489f-8d9f-5bbc937975a1" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +14,8 @@
       <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/go/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="9" column="54" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="9" selection-end-column="54" />
+            <state relative-caret-position="180">
+              <caret line="9" column="54" selection-start-line="8" selection-start-column="4" selection-end-line="9" selection-end-column="54" />
               <folding>
                 <element signature="e#14#83#0" expanded="true" />
               </folding>
@@ -30,11 +26,8 @@
       <file leaf-file-name="mutation_test.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/go/geneticalgorithms/mutation/mutation_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-              <folding>
-                <element signature="e#18#39#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="600">
+              <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -43,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/go/geneticalgorithms/mutation/mutation.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <caret line="108" selection-start-line="108" selection-end-line="108" />
             </state>
           </provider>
         </entry>
@@ -98,7 +91,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,23 +103,11 @@
               <item name="openeca" type="462c0819:PsiDirectoryNode" />
               <item name="go" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="openeca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="openeca" type="462c0819:PsiDirectoryNode" />
-              <item name="go" type="462c0819:PsiDirectoryNode" />
-              <item name="geneticalgorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="openeca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="openeca" type="462c0819:PsiDirectoryNode" />
-              <item name="go" type="462c0819:PsiDirectoryNode" />
-              <item name="geneticalgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="mutation" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -178,12 +158,12 @@
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32983193" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32983193" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32983193" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39915967" />
-      <window_info anchor="bottom" id="Code comment" />
+      <window_info anchor="bottom" id="Code comment" order="8" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -204,14 +184,37 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/go/geneticalgorithms/mutation/mutation.go</url>
-          <line>4</line>
-          <properties />
+          <line>10</line>
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="1" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/go/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="54" selection-start-line="8" selection-start-column="4" selection-end-line="9" selection-end-column="54" />
+          <folding>
+            <element signature="e#14#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go/geneticalgorithms/mutation/mutation.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go/geneticalgorithms/mutation/mutation_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/go/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -245,8 +248,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/go/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="54" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="9" selection-end-column="54" />
+        <state relative-caret-position="180">
+          <caret line="9" column="54" selection-start-line="8" selection-start-column="4" selection-end-line="9" selection-end-column="54" />
           <folding>
             <element signature="e#14#83#0" expanded="true" />
           </folding>
@@ -256,17 +259,14 @@
     <entry file="file://$PROJECT_DIR$/go/geneticalgorithms/mutation/mutation.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/go/geneticalgorithms/mutation/mutation_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding>
-            <element signature="e#18#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="600">
+          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>
